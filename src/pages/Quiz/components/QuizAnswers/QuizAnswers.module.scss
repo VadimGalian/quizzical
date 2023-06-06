@@ -1,0 +1,34 @@
+.container {
+    display: flex;
+    column-gap: 100px;
+    margin-bottom: 30px;
+
+    .answer {
+        border: 1px solid #4d5b9e;
+        width: 200px;
+        text-align: center;
+        padding: 10px;
+        border-radius: 5px;
+
+        &:hover {
+            background-color: #d6dbf5;
+            cursor: pointer;
+            border-color: green;
+        }
+    }
+    .selected {
+        background-color: #d6dbf5;
+    }
+
+    .correct {
+        background-color: green !important;
+        border: none;
+        color: white !important;
+    }
+
+    .wrong {
+        background-color: red;
+        border: none;
+        color: white;
+    }
+}
